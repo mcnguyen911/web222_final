@@ -1,0 +1,468 @@
+/* Add any CSS you need to this file. */
+@charset "UTF-8";
+
+body {
+  background-color: #ececec;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial,
+    sans-serif;
+}
+
+h2 {
+  color: #f15826;
+}
+
+.loose {
+  letter-spacing: 4px;
+}
+
+#Header {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#logo {
+  height: 200px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#banner {
+  padding-top: 30px;
+  text-align: center;
+  font-family: 'Kalam', cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: large;
+  height: 80px;
+}
+
+#nav {
+  padding-top: 8px;
+  margin-top: 20px;
+  background-color: #ffffff;
+  text-align: center;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial,
+    sans-serif;
+  font-size: medium;
+  border-top-style: solid;
+  border-top-width: 2px;
+  padding-bottom: 4px;
+  white-space: normal;
+}
+
+#header {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+#heading {
+  text-align: center;
+  font-family: 'Italianno', cursive;
+  font-style: normal;
+  font-size: 40pt;
+  text-indent: 0px;
+}
+
+#content {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+#leftcolum {
+  width: 210px;
+  float: left;
+  text-align: left;
+  margin-top: 30px;
+}
+
+#menu {
+  width: 140px;
+  margin-left: 35px;
+  text-align: center;
+}
+
+#menutittle {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-width: 2px;
+  border-style: solid;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial,
+    sans-serif;
+  font-size: xx-large;
+}
+
+#rightcolum {
+  width: 790px;
+  float: right;
+  background-color: #f6f6f6;
+  text-align: center;
+}
+
+#appertizerstitle {
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 40pt;
+  text-align: center;
+  font-style: normal;
+  font-family: 'Italianno', cursive;
+}
+
+#apper1 {
+  width: 340px;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 15px;
+  text-align: center;
+  float: left;
+}
+
+#apper2 {
+  width: 340px;
+  margin-top: 20px;
+  margin-right: 40px;
+  margin-left: 15px;
+  text-align: center;
+  float: right;
+}
+#apper3 {
+  width: 340px;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 15px;
+  text-align: center;
+  float: left;
+}
+#apper4 {
+  width: 340px;
+  margin-top: 20px;
+  margin-right: 40px;
+  margin-left: 15px;
+  text-align: center;
+  float: right;
+}
+
+#maincoursestittle {
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 40pt;
+  text-align: center;
+  font-style: normal;
+  font-family: 'Italianno', cursive;
+  clear: both;
+}
+
+#maincourses1 {
+  width: 710x;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+}
+
+#maincourses2 {
+  width: 710px;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+}
+
+#specialstittle {
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 40pt;
+  text-align: center;
+  font-style: normal;
+  font-family: 'Italianno', cursive;
+  clear: both;
+}
+
+#spe1 {
+  width: 710x;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+}
+#spe2 {
+  width: 710x;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+}
+
+#dessertstittle {
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 40pt;
+  text-align: center;
+  font-style: normal;
+  font-family: 'Italianno', cursive;
+  clear: both;
+}
+
+#dess1 {
+  width: 340px;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 15px;
+  text-align: center;
+  float: left;
+}
+
+#dess2 {
+  width: 340px;
+  margin-top: 20px;
+  margin-right: 40px;
+  margin-left: 15px;
+  text-align: center;
+  float: right;
+}
+
+#drinkstittle {
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 40pt;
+  text-align: center;
+  font-style: normal;
+  font-family: 'Italianno', cursive;
+  clear: both;
+}
+
+#drinks {
+  width: 710px;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+}
+
+#apper1 p img {
+  -webkit-box-shadow: 2px 4px 6px 0 #e1e1e1;
+  box-shadow: 2px 3px 6px 0 #e1e1e1;
+}
+#apper2 p img {
+  -webkit-box-shadow: 2px 4px 6px 0 #e1e1e1;
+  box-shadow: 2px 3px 6px 0 #e1e1e1;
+}
+#apper3 p img {
+  -webkit-box-shadow: 2px 4px 6px 0 #e1e1e1;
+  box-shadow: 2px 4px 6px 0 #e1e1e1;
+}
+#apper4 p img {
+  -webkit-box-shadow: 2px 4px 6px 0 #e1e1e1;
+  box-shadow: 2px 4px 6px 0 #e1e1e1;
+}
+
+#maincourses1 p img {
+  -webkit-box-shadow: 2px 4px 6px 0 #e1e1e1;
+  box-shadow: 2px 3px 6px 0 #e1e1e1;
+}
+
+#maincourses2 p img {
+  -webkit-box-shadow: 2px 4px 6px 0 #e1e1e1;
+  box-shadow: 2px 3px 6px 0 #e1e1e1;
+}
+
+#dess1 p img {
+  -webkit-box-shadow: 2px 4px 6px 0 #e1e1e1;
+  box-shadow: 2px 3px 6px 0 #e1e1e1;
+}
+
+#dess2 p img {
+  -webkit-box-shadow: 2px 4px 6px 0 #e1e1e1;
+  box-shadow: 2px 3px 6px 0 #e1e1e1;
+}
+
+#spe1 p img {
+  -webkit-box-shadow: 2px 4px 6px 0 #e1e1e1;
+  box-shadow: 2px 3px 6px 0 #e1e1e1;
+}
+
+#spe2 p img {
+  -webkit-box-shadow: 2px 4px 6px 0 #e1e1e1;
+  box-shadow: 2px 3px 6px 0 #e1e1e1;
+}
+
+#drinks p img {
+  -webkit-box-shadow: 2px 4px 6px 0 #e1e1e1;
+  box-shadow: 2px 3px 6px 0 #e1e1e1;
+}
+
+#backtomenu1 {
+  font-size: medium;
+  text-align: center;
+  font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;
+  width: 790px;
+  margin-top: 10px;
+  clear: both;
+  float: left;
+  margin-bottom: 20px;
+}
+
+#backtomenu2 {
+  font-size: medium;
+  text-align: center;
+  font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;
+  width: 790px;
+  margin-top: 10px;
+  clear: both;
+  float: left;
+  margin-bottom: 20px;
+}
+#backtomenu3 {
+  font-size: medium;
+  text-align: center;
+  font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;
+  width: 790px;
+  margin-top: 10px;
+  clear: both;
+  float: left;
+  margin-bottom: 20px;
+}
+#backtomenu4 {
+  font-size: medium;
+  text-align: center;
+  font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;
+  width: 790px;
+  margin-top: 10px;
+  clear: both;
+  float: left;
+  margin-bottom: 20px;
+}
+#backtomenu5 {
+  font-size: medium;
+  text-align: center;
+  font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;
+  width: 790px;
+  margin-top: 10px;
+  clear: both;
+  float: left;
+  margin-bottom: 30px;
+}
+
+#footer {
+  clear: both;
+  font-size: small;
+  border-top: 2px solid #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  width: 975px;
+}
+
+#bannerimage {
+  margin-bottom: 20px;
+}
+
+#space {
+  height: 20px;
+  clear: both;
+  width: 1024px;
+}
+
+a:link {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ffba25;
+}
+
+a:active {
+  text-decoration: none;
+  color: #000000;
+}
+
+#text {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial,
+    sans-serif;
+  font-size: large;
+  width: 600px;
+  margin-left: 212px;
+}
+
+h1 {
+  font-family: 'Italianno', cursive;
+  text-align: center;
+  font-weight: 1000;
+  font-size: 50pt;
+  margin: 0 0 40px;
+}
+
+.field {
+  display: flex;
+  flex-flow: column-reverse;
+  margin-bottom: 3em;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+label,
+input {
+  transition: all 0.2s;
+  touch-action: manipulation;
+}
+
+input {
+  font-size: 2em;
+  border: 0;
+  background-color: #f6f6f6;
+  border-bottom: 1px solid #ccc;
+}
+
+input:focus {
+  outline: 0;
+  border-bottom: 1px solid #666;
+}
+
+label {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input:placeholder-shown + label {
+  cursor: text;
+  max-width: 66.6%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transform-origin: left bottom;
+  transform: translate(0, 2.125rem) scale(1.5);
+}
+
+::-webkit-input-placeholder {
+  opacity: 0;
+  transition: inherit;
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: 1;
+  text-align: center;
+  font-size: 0.75em;
+}
+
+input:not(:placeholder-shown) + label,
+input:focus + label {
+  transform: translate(7rem, 0) scale(1);
+  cursor: pointer;
+}
